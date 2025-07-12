@@ -876,7 +876,7 @@ main {
 }
 
 .bullet-list span {
-  color: var(--vegas-gold);
+  color: var(--light-gray);
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
