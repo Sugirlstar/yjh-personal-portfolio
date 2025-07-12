@@ -64,6 +64,7 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(316, 100%, 76.5%);
+  --orange-yellow-crayola-light: hsl(316, 100%, 88%);
   --vegas-gold: hsl(316, 100%, 76.5%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -133,7 +134,7 @@ a:hover {
   color: var(--orange-yellow-crayola);
 }
 a:visited {
-  color: var(--white-2);
+  color: var(--orange-yellow-crayola-light);
 }
 
 li { list-style: none; }
@@ -1177,6 +1178,10 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.blog-text a {
+  display: inline;  
 }
 
 
