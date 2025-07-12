@@ -125,7 +125,16 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a {
+  color: var(--white-2);  
+  text-decoration: none;         
+}
+a:hover {
+  color: var(--orange-yellow-crayola);
+}
+a:visited {
+  color: var(--white-2);
+}
 
 li { list-style: none; }
 
